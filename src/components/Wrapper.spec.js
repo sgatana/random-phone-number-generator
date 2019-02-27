@@ -1,7 +1,7 @@
 import React from 'react'
 import { shallow } from 'enzyme'
 import Wrapper from './Wrapper';
-import { SideBar } from './SideBar';
+import { SideBar } from './SIdeBar';
 import Content from './Content';
 
 describe('#Content Component', () => {

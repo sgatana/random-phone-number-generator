@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { SideBar } from './SideBar';
+import { SideBar } from './SIdeBar';
 import Content from './Content';
 import { Container, Row, Col } from 'react-bootstrap'
 import { saveAs } from 'file-saver'
