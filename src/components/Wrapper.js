@@ -93,7 +93,7 @@ export default class Wrapper extends Component {
                 maxNumber={maxNumber}
                 minNumber={minNumber}
                 totalGeneratedNumbers={totalGeneratedNumbers}
-                onChange={this.sortList}
+                sortNumbers={this.sortList}
               />
             </Col>
           </Row>
