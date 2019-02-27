@@ -29,7 +29,8 @@ const Content = ({
                   <ListGroup.Item>
                     <Row>
                       <label className="col-md-3">Sort By:</label>
-                      <select className="form-control col-md-9" onChange={(e) => sortNumbers(e.target.value)}>
+                      <select className="form-control col-md-9" onChange={(e) => sortNumbers(e)}>
+                        <option />
                         <option value='asc' >Ascending</option>
                         <option value='desc'>Descending</option>
                       </select>

@@ -24,7 +24,6 @@ describe('#Content Component', () => {
     expect(wrapper.find('p')).toHaveLength(1)
   })
   it('should render a list of generated numbers', () => {
-    console.log(contentComponent.debug())
     expect(contentComponent.find('ListGroup')).toHaveLength(1)
     expect(contentComponent.find('ListGroupItem')).toHaveLength(4)
   })

@@ -51,15 +51,17 @@ export default class Wrapper extends Component {
       number
     })
   }
-  sortList = (e) => {
+  sortList = event => {
+    const { value } = event.target
     const { generatedNumbers, sortCriteria } = this.state
-    if (sortCriteria === e) {
+    if (sortCriteria === value) {
+
       this.setState(() => ({
-        generatedNumbers: generatedNumbers.sort((a,b) => 0 - (a > b ? -1 : 1))
+        generatedNumbers: generatedNumbers.sort((a, b) => a - b)
       }))
     } else {
       this.setState(() => ({
-        generatedNumbers: generatedNumbers.sort((a,b) => 0 - (a > b ? 1 : -1))
+        generatedNumbers: generatedNumbers.sort((a, b) => b - a)
       }))
     }
 
