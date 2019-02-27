@@ -7,7 +7,7 @@ const Content = ({
   maxNumber,
   minNumber,
   totalGeneratedNumbers,
-  onChange
+  sortNumbers
 }) => {
   return (
     <div>
@@ -29,7 +29,7 @@ const Content = ({
                   <ListGroup.Item>
                     <Row>
                       <label className="col-md-3">Sort By:</label>
-                      <select className="form-control col-md-9" onChange={(e) => onChange(e.target.value)}>
+                      <select className="form-control col-md-9" onChange={(e) => sortNumbers(e.target.value)}>
                         <option value='asc' >Ascending</option>
                         <option value='desc'>Descending</option>
                       </select>
