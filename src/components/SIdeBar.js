@@ -15,11 +15,11 @@ export const SideBar =
         </span>
         <br />
         <ButtonToolbar>
-          <Button color="button-outline-primary" onClick={() => generateRandomNumbers()} className="btn">Generate Numbers</Button>
+          <Button id="generate" color="button-outline-primary" onClick={() => generateRandomNumbers()} className="btn">Generate Numbers</Button>
         </ButtonToolbar>
         <br />
         <ButtonToolbar>
-          <Button color="button-outline-primary" className="btn" onClick={() => exportNumbers()}>Export Numbers</Button>
+          <Button id="export" color="button-outline-primary" className="btn" onClick={() => exportNumbers()}>Export Numbers</Button>
         </ButtonToolbar>
        
       </div>
