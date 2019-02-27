@@ -3,16 +3,17 @@
 ## Random Number Generator
 A react app for generating random numbers
 
-## Features
+#### Features
 - A user can generate phone numbers
 - You can limit the number to be generated
-- You can export generated numbers in pdf
+- You can export generated numbers in csv format
 - Not more than 10,000 numbers can be generated at a time.
 
-## Usage
+#### Usage
 - clone the repository
 - `cd` into the `random-phone-number-generator` folder and install the dependencies using `yarn install`
 - Run `yarn start` to start the application
 - Navigate to `http://localhost:3000/` in your web browser
 
-## Live application
+#### Live application
+[Click here for live demo](https://phonenumbersgenerator.herokuapp.com/)

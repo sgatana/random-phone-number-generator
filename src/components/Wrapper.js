@@ -42,8 +42,8 @@ export default class Wrapper extends Component {
   }
   exportNumbers = () => {
     const { generatedNumbers } = this.state
-    const data = new Blob(generatedNumbers, { type: "text/plain;charset=utf-8" })
-    saveAs(data, 'Phone Numbers.pdf')
+    const data = new Blob(generatedNumbers, { type: "text/csv;charset=utf-8" })
+    saveAs(data, 'Phone Numbers.csv')
   }
   handleChange = event => {
     const number = event.target.value

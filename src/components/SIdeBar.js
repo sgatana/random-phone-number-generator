@@ -9,7 +9,7 @@ export const SideBar =
     exportNumbers
   }) => (
       <div>
-        <input type="number" onChange={onChange} className="form-control" placeholder="Enter the number to generate" />
+        <input type="number" min="0" onChange={onChange} className="form-control" placeholder="Enter the number to generate" />
         <span className="text-danger">
           {error}
         </span>
