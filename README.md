@@ -9,7 +9,7 @@ A react app for generating random numbers
 - You can export generated numbers in csv format
 - Not more than 10,000 numbers can be generated at a time.
 
-#### Usage
+#### Installation
 - clone the repository
 - `cd` into the `random-phone-number-generator` folder and install the dependencies using `yarn install`
 - Run `yarn start` to start the application
